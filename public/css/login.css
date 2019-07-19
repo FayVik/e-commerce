@@ -1,0 +1,114 @@
+form{
+    text-align: center;
+    margin-bottom: 5%;
+    font-weight: bolder;
+}
+form input{
+    text-align: center;
+    width: 80%;
+    border-radius: 4px;
+    height: 5vh;
+    margin-top: 4%;
+    border: 1px solid #0000001f;
+}
+form button{
+    text-align: center;
+    border-radius: 40px;
+    padding: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border: 1px solid #f62f5e;
+    background-color: #f62f5e;
+    color: #ffffff;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+form .check{
+    width: 17%;
+    display: flex;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 4%;
+}
+.check input{
+    margin-top: -10%;
+}
+.check span{
+    font-size: 12px;
+}
+
+/* modal cart style */
+ .secondary{
+    text-align: center;
+    border-radius: 40px;
+    padding: 10px;
+    padding-left:25px;
+    padding-right:25px;
+    border: 1px solid #f62f5e;
+    background-color: #ffffff;
+    color: #f62f5e;
+    font-size: 12px;
+  
+}
+ .primary{
+    text-align: center;
+    border-radius: 40px;
+    padding: 10px;
+    padding-left:30px;
+    padding-right:30px;
+    border: 1px solid #f62f5e;
+    background-color: #f62f5e;
+    color: #ffffff;
+    font-size: 12px;
+    float: right;
+}
+.footers{
+    height: 10vh;
+}
+a {
+    text-decoration: none !important;
+}
+input{
+    outline:none !important;
+} 
+textarea{
+    outline:none ;
+}
+.contact{
+    color:#f62f5e;
+    display: flex;
+    margin-left: 6%;
+    margin-top: 3%;
+    font-weight: bolder;
+}
+.contact h5{
+    margin-left: 7.5%;
+    margin-top: 5%;
+}
+.contact span{
+    margin-left: 30%;
+    margin-top: 3%;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.contact1 input{
+    text-align: left;
+    padding-left: 2%;
+}
+.contact1 textarea{
+    margin-top: 3%;
+    padding-left: 2%;
+    border: 1px solid #0000001f;
+}
+.contact1 button{
+    text-align: center;
+    border-radius: 40px;
+    padding: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 1px solid #f62f5e;
+    background-color: #f62f5e;
+    color: #ffffff;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}

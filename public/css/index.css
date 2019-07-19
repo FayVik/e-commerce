@@ -1,0 +1,450 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.header{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.head a{
+    color: #000000;
+}
+.head a b{
+    color: #f62f5e;
+}
+a {
+    text-decoration: none !important;
+}
+button{
+    outline: none !important;
+}
+.head1 a{
+    color: #000000;
+}
+.head2 a{
+    color: #000000;
+}
+.head3{
+    text-align: center;
+}
+.head3 a{
+    color: #000000;
+}
+.shopmate{
+    font-size: 35px;
+    margin-left:2%; 
+    color: #f62f5e; 
+    animation-delay: 0.5s; 
+    animation-duration: 0.8s
+}
+nav{
+    background-color: #000000;
+}
+nav ul li a{
+    color: #ffffff;
+    padding-left: 2%;
+}
+nav ul li a:hover{
+    color: #ffffff;
+}
+nav i{
+    color: #ffffff;
+    margin-right: 5%;
+    font-size: 25px;
+}
+b{
+    color: #f62f5e;
+}
+h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    color: #000000;
+    font-size: 48px;
+    line-height:150%;
+}
+.search{
+    border-radius:50px;
+    border: 1px solid rgba(0, 0, 0, 0.431);
+    padding: 10px;
+    padding-left:50px;
+    padding-right:100px;
+    margin-right: 10%;
+    outline: none;
+}
+
+
+/* landing page */
+.shopping1{
+    width: 100%;
+    height: 65vh;
+    margin-top:2%;
+    background: url("../images/Images-modal4.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation-duration: 1.2s; 
+    animation-delay: 0.6s;
+}
+.shopping1 h1{
+    color: #000000;
+    margin-left: 8%;
+    padding-top: 4%;
+}
+.shopping1 p{
+    padding: 0;
+    margin: 0;
+}
+.shopping1 p a{
+    color: #ffffff;
+}
+
+/* cards */
+
+.layout{
+    width: 100%; 
+    display: flex;
+    margin-top:1%; 
+    margin-bottom: 2%;   
+}
+.categories{
+    width: 20%; 
+    margin-top:1%; 
+    background-color: rgb(228, 228, 228); 
+    height: 90vh;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+.filter{
+    font-size: 12px;
+    margin-left: 8%;
+    color: #00000063;
+}
+.fa-times{
+    color: #000000;
+}
+p span{
+    color: #000000dc;
+}
+.color1{
+    border: none;
+    width: 6%;
+    height: 2vh;
+    background-color:#6eb2fb ;
+    border-radius: 20px;
+    margin-left: 6%;
+}
+.color2{
+    border: none;
+    width: 6%;
+    height: 2vh;
+    background-color: #00d3ca;
+    border-radius: 20px;
+    margin-left: 6%;
+}
+.color3{
+    border: none;
+    width: 6%;
+    height: 2vh;
+    background-color:#f62f5e;
+    border-radius: 20px;
+    margin-left: 6%;
+}
+.color4{
+    border: none;
+    width: 6%;
+    height: 2vh;
+    background-color: #f05277;
+    border-radius: 20px;
+    margin-left: 6%;
+}
+.color5{
+    border: none;
+    width: 6%;
+    height: 2vh;
+    background-color: #f6ca07 ;
+    border-radius: 20px;
+    margin-left: 6%;
+}
+.color6{
+    border: none;
+    width: 6%;
+    height: 2vh;
+    background-color:#95c2f3;
+    border-radius: 20px;
+    margin-left: 6%;
+}
+.color7{
+    border: none;
+    width: 6%;
+    height: 2vh;
+    background-color: #7504a1 ;
+    border-radius: 20px;
+    margin-left: 6%;
+}
+.size1{
+    margin-left: 6%;
+    width:20%;
+    margin-bottom: 3%;
+    border: none;
+}
+.size1:hover{
+    color: #ffffff;
+    background-color: #f62f5e;
+}
+.size2{
+    margin-left: 6%;
+    width:20%;
+    margin-bottom: 3%;
+    border: none;
+}
+.size2:hover{
+    color: #ffffff;
+    background-color: #f62f5e;
+}
+.size3{
+    margin-left: 6%;
+    width:20%;
+    margin-bottom: 3%;
+    border: none;
+}
+.size3:hover{
+    color: #ffffff;
+    background-color: #f62f5e;
+}
+.size4{
+    margin-left: 6%;
+    width:20%;
+    margin-bottom: 3%;
+    border: none;
+}
+.size4:hover{
+    color: #ffffff;
+    background-color: #f62f5e;
+}
+.size5{
+    margin-left: 6%;
+    width:20%;
+    margin-bottom: 3%;
+    border: none;
+}
+.size5:hover{
+    color: #ffffff;
+    background-color: #f62f5e;
+}
+.apply{
+    margin-top: 10%;
+    margin-left: 30%;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 40px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #f62f5e;
+    background-color: #f62f5e;
+    color: #ffffff;
+    outline: none;
+}
+
+/* itimes */
+.items{
+    width: 80%; 
+    margin-top:1%; 
+    margin-left: 4%; 
+}
+.type{
+    text-align:center;
+    animation-delay: 0.5s;
+    animation-duration: 0.3s;
+    margin-left:3%;
+    margin-right: 2%;
+    margin-bottom: 1%;
+    box-shadow: 0px 0px 5px #00000023;
+}
+.type p strong{
+    color: #f62f5e
+}
+.type:hover .view{
+    cursor: pointer;
+    display: block;
+    z-index: 9999;
+}
+.view{
+    position: absolute;
+    margin-top:25%;
+    margin-left: 30%;
+    border:1px solid #f62f5e;
+    border-radius:30px;
+    padding: 5px;
+    font-size: 8px;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #ffffff;
+    display:none;
+    animation-delay: 0.5s;
+    animation-duration: 0.8s;
+    outline: none;
+}
+.hot{
+    background-color:#f62f5e;
+    color: #ffffff;
+    width: 25%;
+    text-align: center;
+    margin-top: 10%;
+}
+.Add{
+    border:1px solid #f62f5e;
+    border-radius:30px;
+    padding: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #f62f5e;
+    margin-bottom: 4%;
+    outline: none;
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.Add:hover{
+    color: #ffffff;
+    background-color:#f62f5e
+}
+.shopping2{
+    width: 100%;
+    height: 65vh;
+    margin-top:2%;
+    background: url("../images/images-shoe2.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation-duration: 1.2s; 
+    animation-delay: 0.6s;
+}
+.shopping2 h1{
+    color: #ffffff;
+    margin-left: 8%;
+    padding-top: 7%;
+}
+.shopping2 p{
+    padding: 0;
+    margin: 0;
+}
+.shopping2 p{
+    color: #ffffff;
+    width: 28%;
+    margin-left: 5%;
+    font-size: 18px;
+}
+.shopping2 button{
+    margin-left: 5%;
+    margin-top:4%;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    font-size: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #ffffff;
+    color: #f62f5e;
+    font-weight: bold;
+}
+/* all modal */
+.shirt{
+    border: 1px solid #e2e2e2;
+    margin-bottom: 5px;
+    box-shadow: 0px 0px 3px #e6e6e6;
+}
+.shirt1{
+    border-bottom: 1px solid #e6e6e6;
+    height: 5vh;
+}
+.center{
+    text-align:center;
+}
+.click{
+    background-color: #b1b1b1;
+    padding: 1px;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 10px;
+}
+.click1{
+    border: 1px solid;
+    padding: 1px;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 10px;
+}
+/* footer */
+.subscribe{
+    background-color: #f7f7f7;
+    display: flex;
+    height: 10vh;
+    width:100%;
+}
+.subscribe h2{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin:2%;
+}
+.subscribe input{
+    border: 1px solid rgba(0, 0, 0, 0.116);
+    border-radius: 20px;
+    height: 5vh;
+    margin:1%;
+    width: 30%;
+    font-weight: bold;
+    padding-left: 2.5%;
+}
+.subscribe button{
+    font-size: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.116);
+    border-radius: 20px;
+    height: 5vh;
+    margin:1%;
+    width: 10%;
+    color: #ffffff;
+    background-color: #f62f5e;
+    outline: none;
+}
+footer{
+    background-color: #2e2e2e;
+    height: 40vh;
+}
+.section{
+   padding-top: 5%;
+   padding-left: 15%;
+   padding-right: 12%;
+}
+.section a{
+    margin: 5%;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 25px;
+}
+.section1{
+   margin-top:1%;
+   margin-left: 37%;
+   margin-right: 12%;
+ }
+ .section1 a{
+     margin: 2%;
+     text-align: center;
+     text-decoration: none;
+     color: #ffffff;
+     font-size: 40px;
+ }
+ .privacy{
+     color: #ffffff5e;
+     margin-left: 33%;
+     margin-top: 2%;
+ }
