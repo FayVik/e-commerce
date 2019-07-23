@@ -4,23 +4,7 @@ body {
     height: 100%;
     background: #f4f4f4;
 }
-
-/* second nav */
-.shopmate span a{
-    color: #f62f5e;
-    font-size: 25px;
-    font-weight: bolder;
-}
-a{
-    text-decoration: none !important;
-}
-
-.times i{
-    color: #f62f5e;
-    font-size: 25px;
-}
-
-.checkout {
+.check {
     display: flex;
     flex-direction: column;
     width: 940px;
@@ -30,26 +14,27 @@ a{
     align-items: center;
     font-weight: bold;
     margin-bottom: 1%;
+    /* display: none; */
 }
 /* Panel Body */
-.panel{
+.panel2{
     padding: 45px 80px 0;
     flex: 1;
 }
 
-.title {
+.title2 {
     font-weight: 700;
     margin-top: 0;
     margin-bottom: 40px;
     color: #2e2e2e;
 }
 /*progress bars  */
-.progress-bars {
+.progress-bars2 {
     display: flex;
     margin-bottom: 50px;
     justify-content: space-between;
 }
-.step {
+.step2 {
     box-sizing: border-box;
     position: relative;
     z-index: 1;
@@ -62,7 +47,7 @@ a{
     background-color: #efefef;
 }
 
-.step:after {
+.step2:after {
     position: absolute;
     z-index: -1;
     top: 5px;
@@ -73,76 +58,63 @@ a{
     background-color: #efefef;
 }
 
-.step:before {
+.step2:before {
     color: #2e2e2e;
     position: absolute;
     top: 40px;
 }
 
-.step:last-child:after {
+.step2:last-child:after {
     content: none;
 }
 
-.step.active {
+.step2.active {
     background-color: #f62f5e;
 }
-.step.active:after {
-    background-color: #efefef;
+.step2.active:after {
+    background-color:#f62f5e;
     
 }
-.step.active:before {
+.step2.active:before {
     color: #f62f5e;
 }
 
-.step.active + .step {
-    background-color: #efefef;
+.step2.active + .step2 {
+    background-color: #f62f5e;
     
 }
-.step.active + .step:before {
-    color: #2e2e2e;
+.step2.active + .step2:before {
+    color: #f62f5e;
     
 }
 
-.step:nth-child(1):before {
+.step2:nth-child(1):before {
     content: 'Delivery';
 }
-.step:nth-child(2):before {
+.step2:nth-child(2):before {
     right: -40px;
     content: 'Confirmation';
 }
-.step:nth-child(3):before {
+.step2:nth-child(3):before {
     right: -30px;
     content: 'Payment';
 }
-.step:nth-child(4):before {
+.step2:nth-child(4):before {
     right: 0;
     content: 'Finish';
 }
 
-/* forms */
-.sections{
-    /* display: none; */
-    margin-bottom: 2%;
-}
-label{
-    margin-top: 3%;
+/* section 2 */
+.order4{
     color: #a5a5a5;
 }
-.panel input{
-    margin-bottom: 5%;
+.green{
+    font-weight: 100;
 }
-.panel .order{
-    color: #a5a5a5;
+.red{
+    color: #f62f5e;
+    font-weight: bolder;
 }
-.panel .order .order1{
-    color: #000000;
-}
-.panel .order3{
-    background-color: #a5a5a5;
-    font: bold;
-    height: 4%;
-}
-
 
 /* footer */
 .panel-footer {

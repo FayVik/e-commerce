@@ -11,12 +11,27 @@
     <title>SHOPMATE</title>
     <link rel="stylesheet" href="../fontawesome-free-5.6.1-web/css/all.css">
     <link rel="stylesheet" href="../css/animate.css">
-    <link rel="stylesheet" href="../css/checkout.css">
+    <link rel="stylesheet" href="../css/stage4.css">
+    <link rel="stylesheet" href="../css/stage3.css">
+    <link rel="stylesheet" href="../css/stage2.css"> 
+    <link rel="stylesheet" href="../css/checkout.css">     
 </head>
 <body>
 
+    <!-- second nav -->
+    <div class="container-fluid bg-white mb-2 pt-2 pb-2">
+        <div class="row">
+            <div class="col-lg-11 shopmate">
+                <span><a href="../index.html">SHOPMATE</a></span>
+            </div>
+            <div class="col-lg-1 text-center times">
+                <i class="fa fa-bars  mt-1"></i>
+            </div>
+        </div>
+    </div>
+
     <div class="checkout">
-       <div class="panel">
+        <div class="panel">
             <h2 class="title">Checkout</h2>
             <div class="progress-bars">
                 <div class="step active"></div>
@@ -25,161 +40,274 @@
                 <div class="step"></div>
             </div>
             <from>
-               <div class="row">
-                   <div class="col-6">
-                       <label for="">First Name *</label> <br>
-                        <input type="text"  class="form-control">
-                   </div>
-                   <div class="col-6">
-                       <label for="">Last Name *</label> <br>
-                        <input type="text" class="form-control">
-                   </div>
-                   <div class="col-6">
-                        <label for="">Adress *</label> <br>
-                        <input type="text"  class="form-control">
-                   </div>
-                   <div class="col-6">
-                        <label for="">State *</label> <br>
-                        <input type="text"  class="form-control">
-                   </div>
-                   <div class="col-6">
-                        <label for="">State *</label> <br>
-                        <input type="text"  class="form-control">
-                   </div>
-                   <div class="col-6">
-                        <label for="">Zip Code *</label> <br>
-                        <input type="text"  class="form-control">
-                   </div>
-               </div>
-              <div class="">
-                    <p>Country : <span>Great Britain</span></p>
-            
-                    <input type="checkbox" class="btn-primary">
-                    <span>My billing information is the same as my delivery information</span>
-              </div>
-              <hr>
-              <p>Delivery Option</p>
-               <div class="row">
-                    <div class="col-6">
-                        <input type="radio">
-                        <span>Standard shipping (free, 2-3 business days)</span>
-                    </div>
-                    <div class="col-6">
-                        <input type="radio">
-                        <span>Express shipping ($28, 1-2 business days)</span>
-                    </div>
-               </div>
-               <div class="mt-2">
-                    <div class="row order">
-                      <div class="col-8">
-                            <p class="order1">Order summary</p>
-                            <div class="row">
-                                    <div class="col-7">
-                                            <p>Item</p> 
-                                    </div>
-                                    <div class="col-2">
-                                            <p>Qty</p>
-                                    </div>
-                                    <div class="col-2">
-                                            <p>Price</p>
-                                    </div>
-                            </div>
-                            <div class="row">
-                                    <div class="col-7">  
-                                        <span>Green T-shirt 2016 Men Bk3569</span>
-                                    </div>
-                                    <div class="col-2">
-                                        <span class="ml-2">2</span>
-                                    </div>
-                                    <div class="col-2">
-                                        <span class="ml-1">$14</span>
-                                    </div>
-                            </div>
-                             <div class="row mt-3">
-                                    <div class="col-7">  
-                                        <span>Green T-shirt 2016 Men Bk3569</span>
-                                    </div>
-                                    <div class="col-2">
-                                        <span class="ml-2">2</span>
-                                    </div>
-                                    <div class="col-2">
-                                        <span class="ml-1">$14</span>
-                                    </div>
-                            </div>
-                            <div class="row mt-3">
-                                    <div class="col-7">  
-                                        <span>Green T-shirt 2016 Men Bk3569</span>
-                                    </div>
-                                    <div class="col-2">
-                                        <span class="ml-2">2</span>
-                                    </div>
-                                    <div class="col-2">
-                                        <span class="ml-1">$14</span>
-                                    </div>
-                            </div>
-                            <div class="row mt-3">
-                                    <div class="col-7">  
-                                        <span>Green T-shirt 2016 Men Bk3569</span>
-                                    </div>
-                                    <div class="col-2">
-                                        <span class="ml-2">2</span>
-                                    </div>
-                                    <div class="col-2">
-                                        <span class="ml-1">$14</span>
-                                    </div>
-                            </div>
-                      </div>
-                      <div class="col-4">
-                         <div class="row">
-                                <p class="order1">Delivery</p>
-                         </div>
-                          <div class="row">
-                                  <p>Adress</p>
-                                  <p> Office 64, 8 Colmore Row, Birmingham, England, 42000</p>
-                          </div>
-                          <div class="row">
-                                <p>Delivery Options</p>
-                                <span>Standard shipping (free, 2-3 business days)</span>
-                          </div>
-                      </div>
-                    </div>
-                    <hr class="order3">
+                <div class="sections">
                     <div class="row">
-                        <div class="col-4">
-                            <div class="form-group">
-                                    <select id="inputState" class="form-control">
-                                        <option selected>Choose...</option>
-                                        <option>...</option>
-                                    </select>
-                            </div>
+                        <div class="col-6">
+                            <label for="">First Name *</label> <br>
+                                <input type="text"  class="form-control">
                         </div>
-                        <div class="col-3">
-                           <p>Subtotal</p> 
-                           <span>$368</span>
+                        <div class="col-6">
+                            <label for="">Last Name *</label> <br>
+                                <input type="text" class="form-control">
                         </div>
-                        <div class="col-3">
-                            <p>Shipping</p>
-                            <span>Free</span>
+                        <div class="col-6">
+                                <label for="">Adress *</label> <br>
+                                <input type="text"  class="form-control">
                         </div>
-                        <div class="col-2">
-                            <p>Grandtotal</p>
-                            <span>$340</span>
+                        <div class="col-6">
+                                <label for="">State *</label> <br>
+                                <input type="text"  class="form-control">
+                        </div>
+                        <div class="col-6">
+                                <label for="">State *</label> <br>
+                                <input type="text"  class="form-control">
+                        </div>
+                        <div class="col-6">
+                                <label for="">Zip Code *</label> <br>
+                                <input type="text"  class="form-control">
                         </div>
                     </div>
-                </div>
-             </div>
-           </from>
+                    <div class="">
+                        <p>Country : <span>Great Britain</span></p>
+                
+                        <input type="checkbox" class="btn-primary">
+                        <span>My billing information is the same as my delivery information</span>
+                    </div>
+                    <hr>
+                    <p>Delivery Option</p>
+                    <div class="row">
+                        <div class="col-6">
+                                <input type="radio">
+                                <span>Standard shipping (free, 2-3 business days)</span>
+                        </div>
+                        <div class="col-6">
+                                <input type="radio">
+                                <span>Express shipping ($28, 1-2 business days)</span>
+                        </div>
+                    </div>
+                </div> 
+            </from>
+        </div>
          
         <div class="panel-footer">
             <button class="btn back-btn">Back</button>
             <button class="btn next-btn">Next Step</button>
         </div>
-    </div>
+    </div> 
     
+
+    <div class="check animated fadeInUpBig wow">
+        <div class="panel2">
+            <h2 class="title2">Checkout</h2>
+            <div class="progress-bars2">
+                <div class="step2 active"></div>
+                <div class="step2"></div>
+                <div class="step2"></div>
+                <div class="step2"></div>
+            </div>
+            <from>
+                <div class="mt-2">
+                    <div class="row order">
+                        <div class="col-8">
+                                <p class="order1">Order summary</p>
+                                <div class="row">
+                                        <div class="col-7">
+                                                <p>Item</p> 
+                                        </div>
+                                        <div class="col-2">
+                                                <p>Qty</p>
+                                        </div>
+                                        <div class="col-2">
+                                                <p>Price</p>
+                                        </div>
+                                </div>
+                                <div class="row green">
+                                        <div class="col-7">  
+                                            <span>Green T-shirt 2016 Men Bk3569</span>
+                                        </div>
+                                        <div class="col-2">
+                                            <span class="ml-2">2</span>
+                                        </div>
+                                        <div class="col-2">
+                                            <span class="ml-1 red">$14</span>
+                                        </div>
+                                </div>
+                                <div class="row mt-3 green">
+                                        <div class="col-7">  
+                                            <span>Green T-shirt 2016 Men Bk3569</span>
+                                        </div>
+                                        <div class="col-2">
+                                            <span class="ml-2">2</span>
+                                        </div>
+                                        <div class="col-2">
+                                            <span class="ml-1 red">$14</span>
+                                        </div>
+                                </div>
+                                <div class="row mt-3 green">
+                                        <div class="col-7">  
+                                            <span>Green T-shirt 2016 Men Bk3569</span>
+                                        </div>
+                                        <div class="col-2">
+                                            <span class="ml-2">2</span>
+                                        </div>
+                                        <div class="col-2">
+                                            <span class="ml-1 red">$14</span>
+                                        </div>
+                                </div>
+                                <div class="row mt-3 green">
+                                        <div class="col-7">  
+                                            <span>Green T-shirt 2016 Men Bk3569</span>
+                                        </div>
+                                        <div class="col-2">
+                                            <span class="ml-2">2</span>
+                                        </div>
+                                        <div class="col-2">
+                                            <span class="ml-1 red">$14</span>
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="row">
+                                    <p class="order1">Delivery</p>
+                            </div>
+                            <div class="row">
+                                    <p>Adress</p>
+                                    <p class="green"> Office 64, 8 Colmore Row, Birmingham, England, 42000</p>
+                            </div>
+                            <div class="row">
+                                    <p>Delivery Options</p>
+                                    <span class="green">Standard shipping (free, 2-3 business days)</span>
+                            </div>
+                        </div>
+                    </div>
+                        <hr class="order3">
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="form-group">
+                                        <select id="inputState" class="form-control">
+                                            <option selected>Choose...</option>
+                                            <option>...</option>
+                                        </select>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                            <p class="m-0 order4">Subtotal</p> 
+                            <span>$368</span>
+                            </div>
+                            <div class="col-3">
+                                <p class="m-0 order4">Shipping</p>
+                                <span>Free</span>
+                            </div>
+                            <div class="col-2">
+                                <p class="m-0 order4">Grandtotal</p>
+                                <span>$340</span>
+                            </div>
+                        </div>
+                </div>
+            </from>
+        </div>
+            
+        <div class="panel-footer">
+            <button class="btn back-btn">Back</button>
+            <button class="btn next-btn">Next Step</button>
+        </div>
+    </div>
+
+
+    <div class="checkout3 animated fadeInUpBig wow">
+        <div class="panel3">
+            <h2 class="title3">Checkout</h2>
+            <div class="progress-bars3">
+                <div class="step3 active"></div>
+                <div class="step3 active"></div>
+                <div class="step3"></div>
+                <div class="step3"></div>
+            </div>
+            <from>
+                <div class="payments">
+                    <div class="payment-method">
+                            <label for="card" class="method card">
+                            <div class="card-logos">
+                                <img src="../images/visa_logo.png"/>
+                                <img src="../images/mastercard_logo.png"/>
+                            </div>
+                    
+                            <div class="radio-input">
+                                <input id="card" type="radio" name="payment">
+                                Pay £340.00 with credit card
+                            </div>
+                            </label>
+                    
+                            <label for="paypal" class="method paypal">
+                            <img src="../images/paypal_logo.png"/>
+                            <div class="radio-input">
+                                <input id="paypal" type="radio" name="payment"/>
+                                Pay £340.00 with PayPal
+                            </div>
+                            </label>
+                    </div>
+                    <div class="input-fields">
+                            <div class="column-1">
+                                <label for="cardholder">Cardholder's Name</label>
+                                <input type="text" id="cardholder" placeholder="Ujean Pole" />
+                    
+                                <div class="small-inputs">
+                                    <div>
+                                    <label for="date">Valid thru</label>
+                                    <input type="text" id="date" placeholder="MM / YY" />
+                                    </div>
+                        
+                                    <div>
+                                    <label for="verification">CVV / CVC *</label>
+                                    <input type="password" id="verification"/>
+                                    </div>
+                                </div>
+                        
+                            </div>
+
+                            <div class="column-2">
+                                <label for="cardnumber">Card Number</label>
+                                <input type="password" id="cardnumber" placeholder="**** **** **** ****" />
+                        
+                                <span class="info"> * CVV or CVC is the card security code, unique three digits number on the back of your card separate from its number.</span>
+                            </div>
+                    </div>
+                </div>
+            </from>
+        </div>
+            
+        <div class="panel-footer">
+            <button class="btn back-btn">Back</button>
+            <button class="btn next-btn">Next Step</button>
+        </div>
+    </div>
+
+    <div class="checkout4 animated fadeInUpBig wow">
+        <div class="panel4">
+            <h2 class="title4">Checkout</h2>
+            <div class="progress-bars4">
+                <div class="step4 active"></div>
+                <div class="step4 active"></div>
+                <div class="step4 active"></div>
+                <div class="step4"></div>
+            </div>
+            <div class="images row">
+                <div class="col-12">
+                    <img src="../images/icons-rocket.png" width="35%" alt="">
+                </div>
+                <div class="col-12">
+                    <h2>Success !</h2>
+                    <p>Your items will be shipped shortly, you will get email with details.</p>
+                    <button class="btn next-btn next">Back to Shop</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<script src="js/wow.min.js"></script>
+<script src="../js/wow.min.js"></script>
 <script>
           new WOW().init();
 </script>
